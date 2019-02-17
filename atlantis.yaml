@@ -13,3 +13,7 @@ workflows:
       - init
       - plan:
           extra_args: ["-var-file", "~/.aws/apikey"]
+    apply:
+      steps:
+      - apply:
+          extra_args: ["-var-file", "~/.aws/apikey"]
