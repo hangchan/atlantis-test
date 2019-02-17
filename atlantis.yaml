@@ -3,7 +3,7 @@ projects:
 # If two or more projects have the same dir and workspace, they must also have
 # a 'name' key to differentiate them.
 - name: project1-production
-  dir: .
+  dir: project1
   workflow: production
 
 workflows:
