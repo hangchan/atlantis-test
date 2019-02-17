@@ -5,7 +5,7 @@ variable "region" {
 }
 
 variable "app" {
-  default = "counter"
+  default = "project1"
 }
 
 # Used to ssh to the instances
